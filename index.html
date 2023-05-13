@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency converter</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Curency exchanger</h1>
+    </div>
+  </header>
+  <main>
+    <div>
+      <div>
+        <b>Choose your currency :</b>
+        <select name="currency" id="currency">
+          <option value="USD" selected>USD</option>
+          <option value="EUR">EUR</option>
+          <option value="BDT">BDT</option>
+          <option value="INR">INR</option>
+          <option value="AUD">AUD</option>
+          <option value="SAR">SAR</option>
+          <option value="PKR">PKR</option>
+        </select>
+      </div>
+      <div>
+        <b>Enter your amount :</b>
+        <input type="number" id="amount">
+      </div>
+      <div>
+        <b>Choose your exchange currency :</b>
+        <select name="ex-currency" id="ex-currency">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="BDT" selected>BDT</option>
+          <option value="INR">INR</option>
+          <option value="AUD">AUD</option>
+          <option value="SAR">SAR</option>
+          <option value="PKR">PKR</option>
+        </select>
+      </div>
+      <div id="rate" class="rate"></div>
+      <div>
+        <button id="ex-btn">Exchange</button>
+        <button id="reset-btn">Reset</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <h2>&copy; 2023 Currency Converter</h2>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Exchange Rates</a></li>
+            <li><a href="#">Currency Converter</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Welcome to Currency Exchange</h1>
+    <p>We offer the best exchange rates for all major currencies.</p>
+    <button>Exchange Now</button>
+</main>
+<footer>
+    <p>&copy; 2023 Currency Exchange. All rights reserved.</p>
+</footer> -->

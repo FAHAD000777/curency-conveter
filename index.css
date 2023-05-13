@@ -1,0 +1,86 @@
+/* Add some basic styles to the body and header */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #2d3436;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Style the h1 element in the header */
+header h1 {
+  margin: 0;
+}
+
+/* Add some styles to the main section */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* Style the form container */
+main div {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 20px;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 700px) {
+  main div {
+    padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+  }
+}
+
+/* Style the select and input elements */
+select,
+input[type="number"],
+.rate {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  width: 88%;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  select,
+  input[type="number"],
+  .rate {
+    width: 91%;
+    height: 30px;
+    
+  }
+}
+
+/* Style the button */
+button {
+  background-color: #2d3436;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  button {
+    width: 100%;
+    margin: 5px;
+  }
+}
+
+
+    
